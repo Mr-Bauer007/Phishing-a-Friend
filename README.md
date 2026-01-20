@@ -73,6 +73,7 @@ git clone https://github.com/htr-tech/zphisher.git
 cd zphisher
 ./zphisher.sh
 ```
+![Zphisher Interface](https://github.com/Mr-Bauer007/Phishing-a-Friend/blob/main/Screenshots/zphisher%20options.png))
 
 * Select the application whose login you would like to obtain from the victim (26 for WordPress).
 * Select `02` for Cloudflared
