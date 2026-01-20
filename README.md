@@ -1,4 +1,4 @@
-# Phishing-a-Friend
+# A Social Engineering Simulation
 This project describes an ethical phishing scenario.
 **Project Overview**
 This project simulates a simple spear-phishing campaign using Zphisher. It demonstrates the integration of credential harvesting using cloud-based infrastructure.
@@ -49,18 +49,20 @@ This experiment highlighted that even a failed credential harvest results in a s
 **How to Reproduce(Lab Environment)**
 
 - Deploy a Linux instance (Ubuntu, Kali) on Cpouta or run on VMware/Virtualbox
-- Clone and run 'zphisher'
-```git clone https://github.com/htr-tech/zphisher.git
+- Clone and run `zphisher`
+```bash
+git clone https://github.com/htr-tech/zphisher.git
 cd zphisher
 ./zphisher.sh
 ```
+
 - Select the application whose login you would like to obtain from the victim (26 for WordPress).
-- Select 02 for Cloudflared
-- Select 'N' when asked "Do you want to a custom port" and "Do you want to change Mask URL?" (unless you want to).
+- Select `02` for Cloudflared
+- Select 'N' when asked `Do you want to a custom port` and `Do you want to change Mask URL?` (unless you want to).
 - Copy the link and use a URL shortner (Many will refuse the link, I used t.ly)
 - Go to "status privacy" on Whatsapp and set to "Only share with" the victim.
 - Write a convincing reason to pique their interest and get them to click the link.
-- Monitor zphisher terminal for the details and credentials or 'cd' into the 'auth' directory on zphisher and 'cat ip.txt' & 'cat username.dat'
+- Monitor zphisher terminal for the details and credentials or `cd auth` on zphisher and `cat ip.txt` & `cat username.dat`.
 
 **Disclaimer**
 
