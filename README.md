@@ -1,12 +1,16 @@
 # A Social Engineering Simulation
 This project describes an ethical phishing scenario.
+
 **Project Overview**
+
 This project simulates a simple spear-phishing campaign using Zphisher. It demonstrates the integration of credential harvesting using cloud-based infrastructure.
 
 **The Background Story**
+
 I had a discussion with a friend, who is a WordPress website admin, where he gave me permission to use him as a target for my hacking experiments. I delayed the attack for some months so that when it does come, it would be when he least expects it. I thought that the most ethical way to approach things is to use social engineering tactics. It is important to note that he is aware of some phishing tactics, and has in fact been a target of many a phishing campaign.
 
 **Methodology**
+
 Unlike a standard broad attack, this experiment utilized Privacy Settings as a filtering mechanism. 
 
 Vector: WhatsApp Status.
