@@ -73,16 +73,18 @@ git clone https://github.com/htr-tech/zphisher.git
 cd zphisher
 ./zphisher.sh
 ```
-![Zphisher Interface](https://github.com/Mr-Bauer007/Phishing-a-Friend/blob/main/Screenshots/zphisher%20options.png))
+![Zphisher Interface](https://github.com/Mr-Bauer007/Phishing-a-Friend/blob/main/Screenshots/zphisher%20options.png)
 
 * Select the application whose login you would like to obtain from the victim (26 for WordPress).
 * Select `02` for Cloudflared
+![Zphisher Interface](https://github.com/Mr-Bauer007/Phishing-a-Friend/blob/main/Screenshots/zphisher.png)
 * Select `N` when asked `Do you want to a custom port` and `Do you want to change Mask URL?` (unless you want to).
 * Copy the link and use a URL shortner (Many will refuse the link, I used t.ly)
 * Go to "status privacy" on Whatsapp and set to "Only share with" the victim.
 * Write a convincing reason to pique their interest and get them to click the link.
+![whatsapp status](https://github.com/Mr-Bauer007/Phishing-a-Friend/blob/main/Screenshots/WhatsAPP%20status.jpeg)
 * Monitor zphisher terminal for the details and credentials or `cd auth` on zphisher and `cat ip.txt` & `cat username.dat`.
-
+![Victim's Details](https://github.com/Mr-Bauer007/Phishing-a-Friend/blob/main/Screenshots/Victim's%20details.png)
 ---
 
 ## ⚠️ Disclaimer
